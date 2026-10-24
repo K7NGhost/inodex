@@ -3,6 +3,7 @@ name = "inodex"
 version = "0.1.0"
 edition = "2024"
 description = "Native Rust forensic disk image and filesystem readers"
+license = "MIT"
 include = ["/src/**/*.rs", "/docs/api.md", "/README.md", "/Cargo.toml", "/Cargo.lock", "/LICENSE*", "/COPYING*"]
 
 [dependencies]
