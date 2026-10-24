@@ -1,0 +1,2512 @@
+{
+  "filesystems": {
+    "exfat.raw": {
+      "block_size": 512,
+      "entries": [
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 3,
+          "kind": "file",
+          "modified": 0,
+          "path": "/$ALLOC_BITMAP",
+          "size": 504,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "05fc583d67b3106f2e845d773bfeb904e4c1a0d48110be44f9d22c9c49771087",
+              "size": 504
+            }
+          ]
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 64516,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$FAT1",
+          "size": 16384,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 64515,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$MBR",
+          "size": 512,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 4,
+          "kind": "file",
+          "modified": 0,
+          "path": "/$UPCASE_TABLE",
+          "size": 518,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "dba2644d8a90e7c10ac1bdb4d0e1aa267a32a42cfd79c3d5a7c3d6a436b7a17f",
+              "size": 518
+            }
+          ]
+        },
+        {
+          "accessed": 1718469296,
+          "allocated": true,
+          "changed": 0,
+          "created": 1718469296,
+          "id": 6,
+          "kind": "file",
+          "modified": 1718469296,
+          "path": "/Gr\u00e4\u00dfe.txt",
+          "size": 900,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "2f8dedd2ef53bd04a429a70cc36e20a5dff2215c984fefa65bd082d6c23bd146",
+              "size": 900
+            }
+          ]
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 5,
+          "kind": "file",
+          "modified": 0,
+          "path": "/TESTS (Volume Label Entry)",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 1718469296,
+          "allocated": true,
+          "changed": 0,
+          "created": 1718469296,
+          "id": 15,
+          "kind": "file",
+          "modified": 1718469296,
+          "path": "/empty",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 1718469296,
+          "allocated": true,
+          "changed": 0,
+          "created": 1718469296,
+          "id": 9,
+          "kind": "file",
+          "modified": 1718469296,
+          "path": "/fragmented.bin",
+          "size": 800,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "7639497f96980f954c4213acf984614382511a886a332c6b12a755fb3dc9e076",
+              "size": 800
+            }
+          ]
+        },
+        {
+          "accessed": 1718469296,
+          "allocated": true,
+          "changed": 0,
+          "created": 1718469296,
+          "id": 12,
+          "kind": "directory",
+          "modified": 1718469296,
+          "path": "/subdir",
+          "size": 512,
+          "streams": []
+        },
+        {
+          "accessed": 1718469296,
+          "allocated": true,
+          "changed": 0,
+          "created": 1718469296,
+          "id": 115,
+          "kind": "file",
+          "modified": 1718469296,
+          "path": "/subdir/child.txt",
+          "size": 12,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "b10ea0dcc245f3822bd0a1a6bceaadf1c2fa1f4515e5bb8c0c1c15a815553613",
+              "size": 12
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "ext2-indirect.raw": {
+      "block_size": 1024,
+      "entries": [
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 12,
+          "kind": "directory",
+          "modified": 1626962852,
+          "path": "/a_directory",
+          "size": 1024,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 13,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 15,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 16,
+          "kind": "symlink",
+          "modified": 1626962852,
+          "path": "/a_link",
+          "size": 24,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "6733d69287df2b9bc972ed6bc8c3e7e540965deee27b18acf8cbf9d1fe662630",
+              "size": 24
+            }
+          ]
+        },
+        {
+          "accessed": 1626962851,
+          "allocated": true,
+          "changed": 1626962851,
+          "created": 0,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1626962851,
+          "path": "/lost+found",
+          "size": 12288,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 14,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/passwords.txt",
+          "size": 67384320,
+          "streams": [
+            {
+              "name": "",
+              "samples": [
+                {
+                  "length": 1027,
+                  "offset": 0,
+                  "sha256": "fcbfa5fc60d951e361f942cd7148f13ddcaf019b04b41879c8d652d03d21d676"
+                },
+                {
+                  "length": 1027,
+                  "offset": 12264,
+                  "sha256": "fd48830ca51ebd98be28c12f778ad6968e75802c4e41e863dbe2b2dd3f01fbe5"
+                },
+                {
+                  "length": 1027,
+                  "offset": 12288,
+                  "sha256": "3bde79de2a2eaf78bdcf4ae9628de202dbfa797382c3d9c7d118c7a4cc4964fb"
+                },
+                {
+                  "length": 1027,
+                  "offset": 274425,
+                  "sha256": "d7bca96613e636561045871141e945fbe2266c6ecf72b9303e1bdccbca6a7d63"
+                },
+                {
+                  "length": 1027,
+                  "offset": 274432,
+                  "sha256": "185c3c6f2f6c4de04874299744492cdd6bfb78e9c68630318ccdeb60fbe2080e"
+                },
+                {
+                  "length": 1027,
+                  "offset": 67383272,
+                  "sha256": "a71dbdbe11b3a0e1ba4c265bb5181e1e6f284c6eabc2af0e8520b9c41291f669"
+                },
+                {
+                  "length": 1024,
+                  "offset": 67383296,
+                  "sha256": "84eae817003b6c16ecf5270b6a5040cce2644e3e0ecac21c37ecc41ed8f75a3e"
+                },
+                {
+                  "length": 2,
+                  "offset": 67384318,
+                  "sha256": "9294ab38039f60d2ec53822fb46b52c663af7ea478f4d17bf43da44ede5e166c"
+                }
+              ],
+              "size": 67384320
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "ext2.raw": {
+      "block_size": 1024,
+      "entries": [
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 12,
+          "kind": "directory",
+          "modified": 1626962852,
+          "path": "/a_directory",
+          "size": 1024,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 13,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 15,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 16,
+          "kind": "symlink",
+          "modified": 1626962852,
+          "path": "/a_link",
+          "size": 24,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "6733d69287df2b9bc972ed6bc8c3e7e540965deee27b18acf8cbf9d1fe662630",
+              "size": 24
+            }
+          ]
+        },
+        {
+          "accessed": 1626962851,
+          "allocated": true,
+          "changed": 1626962851,
+          "created": 0,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1626962851,
+          "path": "/lost+found",
+          "size": 12288,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 0,
+          "id": 14,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/passwords.txt",
+          "size": 116,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+              "size": 116
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "ext4-extent.raw": {
+      "block_size": 1024,
+      "entries": [
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 12,
+          "kind": "directory",
+          "modified": 1626962852,
+          "path": "/a_directory",
+          "size": 1024,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 13,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 15,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 16,
+          "kind": "symlink",
+          "modified": 1626962852,
+          "path": "/a_link",
+          "size": 24,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "6733d69287df2b9bc972ed6bc8c3e7e540965deee27b18acf8cbf9d1fe662630",
+              "size": 24
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1626962852,
+          "path": "/lost+found",
+          "size": 12288,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 14,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/passwords.txt",
+          "size": 275456,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "a18d601cca4d1fdca40b02dca9ea448e2a4cdb9f4875268eb78406ef3177d111",
+              "size": 275456
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "ext4.raw": {
+      "block_size": 1024,
+      "entries": [
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 12,
+          "kind": "directory",
+          "modified": 1626962852,
+          "path": "/a_directory",
+          "size": 1024,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 13,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 15,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 16,
+          "kind": "symlink",
+          "modified": 1626962852,
+          "path": "/a_link",
+          "size": 24,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "6733d69287df2b9bc972ed6bc8c3e7e540965deee27b18acf8cbf9d1fe662630",
+              "size": 24
+            }
+          ]
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1626962852,
+          "path": "/lost+found",
+          "size": 12288,
+          "streams": []
+        },
+        {
+          "accessed": 1626962852,
+          "allocated": true,
+          "changed": 1626962852,
+          "created": 1626962852,
+          "id": 14,
+          "kind": "file",
+          "modified": 1626962852,
+          "path": "/passwords.txt",
+          "size": 116,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+              "size": 116
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "fat12.raw": {
+      "block_size": 512,
+      "entries": [
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 130868,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$FAT1",
+          "size": 3072,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 130869,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$FAT2",
+          "size": 3072,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 130867,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$MBR",
+          "size": 512,
+          "streams": []
+        },
+        {
+          "accessed": 1618718400,
+          "allocated": true,
+          "changed": 0,
+          "created": 1618772950,
+          "id": 3,
+          "kind": "file",
+          "modified": 1618772950,
+          "path": "/FAT12_TEST  (Volume Label Entry)",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 1618718400,
+          "allocated": true,
+          "changed": 0,
+          "created": 1618772950,
+          "id": 5,
+          "kind": "directory",
+          "modified": 1618772950,
+          "path": "/a_directory",
+          "size": 2048,
+          "streams": []
+        },
+        {
+          "accessed": 1618718400,
+          "allocated": true,
+          "changed": 0,
+          "created": 1618772950,
+          "id": 582,
+          "kind": "file",
+          "modified": 1618772950,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1618718400,
+          "allocated": true,
+          "changed": 0,
+          "created": 1618772950,
+          "id": 584,
+          "kind": "file",
+          "modified": 1618772950,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1618718400,
+          "allocated": true,
+          "changed": 0,
+          "created": 1618772950,
+          "id": 7,
+          "kind": "file",
+          "modified": 1618772950,
+          "path": "/passwords.txt",
+          "size": 116,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+              "size": 116
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "fat16.raw": {
+      "block_size": 512,
+      "entries": [
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 522228,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$FAT1",
+          "size": 32768,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 522229,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$FAT2",
+          "size": 32768,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 522227,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$MBR",
+          "size": 512,
+          "streams": []
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 7,
+          "kind": "file",
+          "modified": 315550800,
+          "path": "/EMPTY.TXT",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 6,
+          "kind": "directory",
+          "modified": 315550800,
+          "path": "/NESTED",
+          "size": 1024,
+          "streams": []
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 581,
+          "kind": "file",
+          "modified": 315550800,
+          "path": "/NESTED/HELLO.TXT",
+          "size": 16,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "6db6bab169bfe84f3dffc833401e8e215ae9cccb6aa8a6d84826ac722ce2234d",
+              "size": 16
+            }
+          ]
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 5,
+          "kind": "file",
+          "modified": 315550800,
+          "path": "/R\u00e9sum\u00e9 long filename.txt",
+          "size": 131113,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "cb9f81ca45adbc3d3280c4709e7e3460f736c682b936187ac8b36067ef5b4abb",
+              "size": 131113
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "fat32.raw": {
+      "block_size": 512,
+      "entries": [
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 1096196,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$FAT1",
+          "size": 278528,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 1096197,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$FAT2",
+          "size": 278528,
+          "streams": []
+        },
+        {
+          "accessed": 0,
+          "allocated": true,
+          "changed": 0,
+          "created": 0,
+          "id": 1096195,
+          "kind": "other",
+          "modified": 0,
+          "path": "/$MBR",
+          "size": 512,
+          "streams": []
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 7,
+          "kind": "file",
+          "modified": 315550800,
+          "path": "/EMPTY.TXT",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 6,
+          "kind": "directory",
+          "modified": 315550800,
+          "path": "/NESTED",
+          "size": 512,
+          "streams": []
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 37,
+          "kind": "file",
+          "modified": 315550800,
+          "path": "/NESTED/HELLO.TXT",
+          "size": 16,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "6db6bab169bfe84f3dffc833401e8e215ae9cccb6aa8a6d84826ac722ce2234d",
+              "size": 16
+            }
+          ]
+        },
+        {
+          "accessed": 315550800,
+          "allocated": true,
+          "changed": 0,
+          "created": 315550800,
+          "id": 5,
+          "kind": "file",
+          "modified": 315550800,
+          "path": "/R\u00e9sum\u00e9 long filename.txt",
+          "size": 131113,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "cb9f81ca45adbc3d3280c4709e7e3460f736c682b936187ac8b36067ef5b4abb",
+              "size": 131113
+            }
+          ]
+        }
+      ],
+      "root_id": 2
+    },
+    "ntfs-attrlist.raw": {
+      "block_size": 4096,
+      "entries": [
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 4,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$AttrDef",
+          "size": 2560,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "d7de5b1b2f79f45f235ceb1adbc46908ed64eae174eb90ed66aefe5f25165da3",
+              "size": 2560
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 8,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$BadClus",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            {
+              "name": "$Bad",
+              "oracle_error": "independent TSK returned a short read",
+              "size": 4190208
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 6,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Bitmap",
+          "size": 128,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "7130659a4172eee215909de8c1b5ffa78b5ffd5c06965aee0099f72e26c739bc",
+              "size": 128
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 7,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Boot",
+          "size": 8192,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "9a9cc3f1b05ae55b091e0504f75b947eb8f501939b66d2fdd982a0971ac17a02",
+              "size": 8192
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/$Extend",
+          "size": 344,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 25,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$ObjId",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 24,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Quota",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 26,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Reparse",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 2,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$LogFile",
+          "size": 1048576,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+              "size": 1048576
+            }
+          ]
+        },
+        {
+          "accessed": 3373865674,
+          "allocated": true,
+          "changed": 3373865674,
+          "created": 3373865674,
+          "id": 0,
+          "kind": "file",
+          "modified": 3373865674,
+          "path": "/$MFT",
+          "size": 70656,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "b87ac61dca3774dad7e6d6a25da03583fd361819bcd484ae8e12c1771e974bf5",
+              "size": 70656
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 1,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$MFTMirr",
+          "size": 4096,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e099b477bd0a21302de92920b355e193ccb7d54c60fe5813cd8b550ac3dfeb36",
+              "size": 4096
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 9,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Secure",
+          "size": 0,
+          "streams": [
+            {
+              "name": "$SDS",
+              "sha256": "95aefacfebf228fd2c9e150a86b0eb1a3924fb25b0995c6e0e7c34feeade0a76",
+              "size": 262396
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 10,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$UpCase",
+          "size": 131072,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "41c26bc7a12bdaeb26025c93118697c7e3ef81ee048b00fe5cce2a472e0e0742",
+              "size": 131072
+            },
+            {
+              "name": "$Info",
+              "sha256": "ee502838f53f00c9444b311f4cdea74454a1e0c64e8cdec3d63eb5232fb61f82",
+              "size": 32
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 3,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Volume",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 64,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/a_directory",
+          "size": 256,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 65,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 67,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 68,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_link",
+          "size": 56,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "dc42e29927b716afcb1a05ca2df1860fb0d2e7d5b0276f3eca5c7844ab267d71",
+              "size": 56
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 66,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/passwords.txt",
+          "size": 116,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+              "size": 116
+            }
+          ]
+        }
+      ],
+      "root_id": 5
+    },
+    "ntfs-gpt.raw": {
+      "block_size": 4096,
+      "entries": [
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 4,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$AttrDef",
+          "size": 2560,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "d7de5b1b2f79f45f235ceb1adbc46908ed64eae174eb90ed66aefe5f25165da3",
+              "size": 2560
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 8,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$BadClus",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            {
+              "name": "$Bad",
+              "oracle_error": "independent TSK returned a short read",
+              "size": 4190208
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 6,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Bitmap",
+          "size": 128,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "7130659a4172eee215909de8c1b5ffa78b5ffd5c06965aee0099f72e26c739bc",
+              "size": 128
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 7,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Boot",
+          "size": 8192,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "9a9cc3f1b05ae55b091e0504f75b947eb8f501939b66d2fdd982a0971ac17a02",
+              "size": 8192
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/$Extend",
+          "size": 344,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 25,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$ObjId",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 24,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Quota",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 26,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Reparse",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 2,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$LogFile",
+          "size": 1048576,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+              "size": 1048576
+            }
+          ]
+        },
+        {
+          "accessed": 3373865674,
+          "allocated": true,
+          "changed": 3373865674,
+          "created": 3373865674,
+          "id": 0,
+          "kind": "file",
+          "modified": 3373865674,
+          "path": "/$MFT",
+          "size": 70656,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "ef643dc219fbea7eeca9790faa56b400b6427491e1250db9191ce836f42b9930",
+              "size": 70656
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 1,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$MFTMirr",
+          "size": 4096,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e099b477bd0a21302de92920b355e193ccb7d54c60fe5813cd8b550ac3dfeb36",
+              "size": 4096
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 9,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Secure",
+          "size": 0,
+          "streams": [
+            {
+              "name": "$SDS",
+              "sha256": "95aefacfebf228fd2c9e150a86b0eb1a3924fb25b0995c6e0e7c34feeade0a76",
+              "size": 262396
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 10,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$UpCase",
+          "size": 131072,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "41c26bc7a12bdaeb26025c93118697c7e3ef81ee048b00fe5cce2a472e0e0742",
+              "size": 131072
+            },
+            {
+              "name": "$Info",
+              "sha256": "ee502838f53f00c9444b311f4cdea74454a1e0c64e8cdec3d63eb5232fb61f82",
+              "size": 32
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 3,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Volume",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 64,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/a_directory",
+          "size": 256,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 65,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 67,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 68,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_link",
+          "size": 56,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "dc42e29927b716afcb1a05ca2df1860fb0d2e7d5b0276f3eca5c7844ab267d71",
+              "size": 56
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 66,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/passwords.txt",
+          "size": 116,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+              "size": 116
+            }
+          ]
+        }
+      ],
+      "root_id": 5
+    },
+    "ntfs-mbr.raw": {
+      "block_size": 4096,
+      "entries": [
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 4,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$AttrDef",
+          "size": 2560,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "d7de5b1b2f79f45f235ceb1adbc46908ed64eae174eb90ed66aefe5f25165da3",
+              "size": 2560
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 8,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$BadClus",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            {
+              "name": "$Bad",
+              "oracle_error": "independent TSK returned a short read",
+              "size": 4190208
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 6,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Bitmap",
+          "size": 128,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "7130659a4172eee215909de8c1b5ffa78b5ffd5c06965aee0099f72e26c739bc",
+              "size": 128
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 7,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Boot",
+          "size": 8192,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "9a9cc3f1b05ae55b091e0504f75b947eb8f501939b66d2fdd982a0971ac17a02",
+              "size": 8192
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/$Extend",
+          "size": 344,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 25,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$ObjId",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 24,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Quota",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 26,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Reparse",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 2,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$LogFile",
+          "size": 1048576,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+              "size": 1048576
+            }
+          ]
+        },
+        {
+          "accessed": 3373865674,
+          "allocated": true,
+          "changed": 3373865674,
+          "created": 3373865674,
+          "id": 0,
+          "kind": "file",
+          "modified": 3373865674,
+          "path": "/$MFT",
+          "size": 70656,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "ef643dc219fbea7eeca9790faa56b400b6427491e1250db9191ce836f42b9930",
+              "size": 70656
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 1,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$MFTMirr",
+          "size": 4096,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e099b477bd0a21302de92920b355e193ccb7d54c60fe5813cd8b550ac3dfeb36",
+              "size": 4096
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 9,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Secure",
+          "size": 0,
+          "streams": [
+            {
+              "name": "$SDS",
+              "sha256": "95aefacfebf228fd2c9e150a86b0eb1a3924fb25b0995c6e0e7c34feeade0a76",
+              "size": 262396
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 10,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$UpCase",
+          "size": 131072,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "41c26bc7a12bdaeb26025c93118697c7e3ef81ee048b00fe5cce2a472e0e0742",
+              "size": 131072
+            },
+            {
+              "name": "$Info",
+              "sha256": "ee502838f53f00c9444b311f4cdea74454a1e0c64e8cdec3d63eb5232fb61f82",
+              "size": 32
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 3,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Volume",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 64,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/a_directory",
+          "size": 256,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 65,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 67,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 68,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_link",
+          "size": 56,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "dc42e29927b716afcb1a05ca2df1860fb0d2e7d5b0276f3eca5c7844ab267d71",
+              "size": 56
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 66,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/passwords.txt",
+          "size": 116,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+              "size": 116
+            }
+          ]
+        }
+      ],
+      "root_id": 5
+    },
+    "ntfs.raw": {
+      "block_size": 4096,
+      "entries": [
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 4,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$AttrDef",
+          "size": 2560,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "d7de5b1b2f79f45f235ceb1adbc46908ed64eae174eb90ed66aefe5f25165da3",
+              "size": 2560
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 8,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$BadClus",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            {
+              "name": "$Bad",
+              "oracle_error": "independent TSK returned a short read",
+              "size": 4190208
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 6,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Bitmap",
+          "size": 128,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "7130659a4172eee215909de8c1b5ffa78b5ffd5c06965aee0099f72e26c739bc",
+              "size": 128
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 7,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Boot",
+          "size": 8192,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "9a9cc3f1b05ae55b091e0504f75b947eb8f501939b66d2fdd982a0971ac17a02",
+              "size": 8192
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 11,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/$Extend",
+          "size": 344,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 25,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$ObjId",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 24,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Quota",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 26,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Extend/$Reparse",
+          "size": 0,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 2,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$LogFile",
+          "size": 1048576,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+              "size": 1048576
+            }
+          ]
+        },
+        {
+          "accessed": 3373865674,
+          "allocated": true,
+          "changed": 3373865674,
+          "created": 3373865674,
+          "id": 0,
+          "kind": "file",
+          "modified": 3373865674,
+          "path": "/$MFT",
+          "size": 70656,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "ef643dc219fbea7eeca9790faa56b400b6427491e1250db9191ce836f42b9930",
+              "size": 70656
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 1,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$MFTMirr",
+          "size": 4096,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e099b477bd0a21302de92920b355e193ccb7d54c60fe5813cd8b550ac3dfeb36",
+              "size": 4096
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 9,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Secure",
+          "size": 0,
+          "streams": [
+            {
+              "name": "$SDS",
+              "sha256": "95aefacfebf228fd2c9e150a86b0eb1a3924fb25b0995c6e0e7c34feeade0a76",
+              "size": 262396
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 10,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$UpCase",
+          "size": 131072,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "41c26bc7a12bdaeb26025c93118697c7e3ef81ee048b00fe5cce2a472e0e0742",
+              "size": 131072
+            },
+            {
+              "name": "$Info",
+              "sha256": "ee502838f53f00c9444b311f4cdea74454a1e0c64e8cdec3d63eb5232fb61f82",
+              "size": 32
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 3,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/$Volume",
+          "size": 0,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 64,
+          "kind": "directory",
+          "modified": 1567246979,
+          "path": "/a_directory",
+          "size": 256,
+          "streams": []
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 65,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/a_file",
+          "size": 53,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "4a49638d0e1055fd9e4c17fef7fdf4d6ccf892b6d9c2f64164203c4bfb0ec92d",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 67,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_directory/another_file",
+          "size": 22,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "c7fbc0e821c0871805a99584c6a384533909f68a6bbe9a2a687d28d9f3b10c16",
+              "size": 22
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 68,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/a_link",
+          "size": 56,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "dc42e29927b716afcb1a05ca2df1860fb0d2e7d5b0276f3eca5c7844ab267d71",
+              "size": 56
+            }
+          ]
+        },
+        {
+          "accessed": 1567246979,
+          "allocated": true,
+          "changed": 1567246979,
+          "created": 1567246979,
+          "id": 66,
+          "kind": "file",
+          "modified": 1567246979,
+          "path": "/passwords.txt",
+          "size": 116,
+          "streams": [
+            {
+              "name": "",
+              "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+              "size": 116
+            }
+          ]
+        }
+      ],
+      "root_id": 5
+    }
+  },
+  "partitions": {
+    "gpt.raw": [
+      {
+        "description": "Safety Table",
+        "flags": 4,
+        "sectors": 1,
+        "start": 0
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 2048,
+        "start": 0
+      },
+      {
+        "description": "GPT Header",
+        "flags": 4,
+        "sectors": 1,
+        "start": 1
+      },
+      {
+        "description": "Partition Table",
+        "flags": 4,
+        "sectors": 32,
+        "start": 2
+      },
+      {
+        "description": "Linux filesystem",
+        "flags": 1,
+        "sectors": 128,
+        "start": 2048
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 1920,
+        "start": 2176
+      },
+      {
+        "description": "Linux filesystem",
+        "flags": 1,
+        "sectors": 128,
+        "start": 4096
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 3968,
+        "start": 4224
+      }
+    ],
+    "gpt_empty.raw": [
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 8192,
+        "start": 0
+      },
+      {
+        "description": "Partition Table",
+        "flags": 4,
+        "sectors": 32,
+        "start": 8159
+      },
+      {
+        "description": "GPT Header",
+        "flags": 4,
+        "sectors": 1,
+        "start": 8191
+      }
+    ],
+    "gpt_non_sequential.raw": [
+      {
+        "description": "Safety Table",
+        "flags": 4,
+        "sectors": 1,
+        "start": 0
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 2048,
+        "start": 0
+      },
+      {
+        "description": "GPT Header",
+        "flags": 4,
+        "sectors": 1,
+        "start": 1
+      },
+      {
+        "description": "Partition Table",
+        "flags": 4,
+        "sectors": 32,
+        "start": 2
+      },
+      {
+        "description": "Linux filesystem",
+        "flags": 1,
+        "sectors": 128,
+        "start": 2048
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 3968,
+        "start": 2176
+      },
+      {
+        "description": "Linux filesystem",
+        "flags": 1,
+        "sectors": 128,
+        "start": 6144
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 1920,
+        "start": 6272
+      }
+    ],
+    "mbr.raw": [
+      {
+        "description": "Primary Table (#0)",
+        "flags": 4,
+        "sectors": 1,
+        "start": 0
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 1,
+        "start": 0
+      },
+      {
+        "description": "Linux (0x83)",
+        "flags": 1,
+        "sectors": 129,
+        "start": 1
+      },
+      {
+        "description": "DOS Extended (0x05)",
+        "flags": 4,
+        "sectors": 8062,
+        "start": 130
+      },
+      {
+        "description": "Extended Table (#1)",
+        "flags": 4,
+        "sectors": 1,
+        "start": 130
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 1,
+        "start": 130
+      },
+      {
+        "description": "Linux (0x83)",
+        "flags": 1,
+        "sectors": 129,
+        "start": 131
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 7932,
+        "start": 260
+      }
+    ],
+    "ntfs-gpt.raw": [
+      {
+        "description": "Safety Table",
+        "flags": 4,
+        "sectors": 1,
+        "start": 0
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 2048,
+        "start": 0
+      },
+      {
+        "description": "GPT Header",
+        "flags": 4,
+        "sectors": 1,
+        "start": 1
+      },
+      {
+        "description": "Partition Table",
+        "flags": 4,
+        "sectors": 32,
+        "start": 2
+      },
+      {
+        "description": "NTFS evidence \u2603",
+        "flags": 1,
+        "sectors": 8192,
+        "start": 2048
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 1024,
+        "start": 10240
+      }
+    ],
+    "ntfs-mbr.raw": [
+      {
+        "description": "Primary Table (#0)",
+        "flags": 4,
+        "sectors": 1,
+        "start": 0
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 2048,
+        "start": 0
+      },
+      {
+        "description": "NTFS / exFAT (0x07)",
+        "flags": 1,
+        "sectors": 8192,
+        "start": 2048
+      },
+      {
+        "description": "Unallocated",
+        "flags": 2,
+        "sectors": 1024,
+        "start": 10240
+      }
+    ]
+  },
+  "pytsk3_version": "20180225"
+}

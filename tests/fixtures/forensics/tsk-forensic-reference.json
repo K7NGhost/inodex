@@ -1,0 +1,12 @@
+{
+  "ntfs-forensics.raw": {
+    "record": 66,
+    "bytes": 196626,
+    "sha256": "fa2b0dab0059102e78ca7ec110c17c8db6bb3c29abe049e75bf85f75f53d5cdd"
+  },
+  "ntfs-deleted.raw": {
+    "record": 27,
+    "bytes": 25,
+    "sha256": "2bd7a8951245586264a7aad60e05f849097b88b3dc51c6e44be25db7a8b6cac1"
+  }
+}

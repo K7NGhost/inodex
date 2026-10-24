@@ -1,0 +1,146 @@
+{
+  "hfs-compressed-3": {
+    "returncode": 0,
+    "size": 1520,
+    "sha256": "82df35b8ddf9ede05e52467166a1afa8f7f14a9cbaccbc9e28b4561a09743161",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "hfs-compressed-4": {
+    "returncode": 0,
+    "size": 131585,
+    "sha256": "d1798c7a3a99bb74f33148082cd74e23e02dd591b11c98106ccf6e03bd708080",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "hfs-compressed-7": {
+    "returncode": 0,
+    "size": 1520,
+    "sha256": "82df35b8ddf9ede05e52467166a1afa8f7f14a9cbaccbc9e28b4561a09743161",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "hfs-compressed-8": {
+    "returncode": 0,
+    "size": 131585,
+    "sha256": "d1798c7a3a99bb74f33148082cd74e23e02dd591b11c98106ccf6e03bd708080",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "hfs-compressed-9": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "hfs-compressed-10": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "hfs-compressed-11": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "hfs-compressed-12": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "apfs-compressed-3": {
+    "returncode": 0,
+    "size": 1520,
+    "sha256": "82df35b8ddf9ede05e52467166a1afa8f7f14a9cbaccbc9e28b4561a09743161",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "apfs-compressed-4": {
+    "returncode": 0,
+    "size": 131585,
+    "sha256": "d1798c7a3a99bb74f33148082cd74e23e02dd591b11c98106ccf6e03bd708080",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "apfs-compressed-7": {
+    "returncode": 0,
+    "size": 1520,
+    "sha256": "82df35b8ddf9ede05e52467166a1afa8f7f14a9cbaccbc9e28b4561a09743161",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "apfs-compressed-8": {
+    "returncode": 0,
+    "size": 131585,
+    "sha256": "d1798c7a3a99bb74f33148082cd74e23e02dd591b11c98106ccf6e03bd708080",
+    "matches_source": true,
+    "stderr": ""
+  },
+  "apfs-compressed-9": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "apfs-compressed-10": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "apfs-compressed-11": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "apfs-compressed-12": {
+    "returncode": 1,
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_source": false,
+    "stderr": "Attribute not found in file (tsk_fs_attrlist_get: Attribute 4352 not found)\r\n"
+  },
+  "ufs1b": {
+    "listing": "",
+    "stderr": "Unsupported file system type: ufs1b\r\nusage: target\\tsk-oracle\\sleuthkit-4.15.0-win32\\bin\\fls.exe [-adDFlhpruvV] [-f fstype] [-i imgtype] [-b dev_sector_size] [-m dir/] [-o imgoffset] [-z ZONE] [-s seconds] image [images] [inode]\r\n\tIf [inode] is not given, the root directory is used\r\n\t-a: Display \".\" and \"..\" entries\r\n\t-d: Display deleted entries only\r\n\t-D: Display only directories\r\n\t-F: Display only files\r\n\t-l: Display long version (like ls -l)\r\n\t-i imgtype: Format of image file (use '-i list' for supported types)\r\n\t-b dev_sector_size: The size (in bytes) of the device sectors\r\n\t-f fstype: File system type (use '-f list' for supported types)\r\n\t-m: Display output in mactime input format with\r\n\t      dir/ as the actual mount point of the image\r\n\t-h: Include MD5 checksum hash in mactime output\r\n\t-o imgoffset: Offset into image file (in sectors)\r\n\t-P pooltype: Pool container type (use '-P list' for supported types)\r\n\t-B pool_volume_block: Starting block (for pool volumes only)\r\n\t-S snap_id: Snapshot ID (for APFS only)\r\n\t-p: Display full path for each file\r\n\t-r: Recurse on directory entries\r\n\t-u: Display undeleted entries only\r\n\t-v: verbose output to stderr\r\n\t-V: Print version\r\n\t-z: Time zone of original machine (i.e. EST5EDT or GMT) (only useful with -l)\r\n\t-s seconds: Time skew of original machine (in seconds) (only useful with -l & -m)\r\n\t-k password: Decryption password for encrypted volumes\r\n",
+    "returncode": 1
+  },
+  "ufs1b-be": {
+    "listing": "",
+    "stderr": "Unsupported file system type: ufs1b\r\nusage: target\\tsk-oracle\\sleuthkit-4.15.0-win32\\bin\\fls.exe [-adDFlhpruvV] [-f fstype] [-i imgtype] [-b dev_sector_size] [-m dir/] [-o imgoffset] [-z ZONE] [-s seconds] image [images] [inode]\r\n\tIf [inode] is not given, the root directory is used\r\n\t-a: Display \".\" and \"..\" entries\r\n\t-d: Display deleted entries only\r\n\t-D: Display only directories\r\n\t-F: Display only files\r\n\t-l: Display long version (like ls -l)\r\n\t-i imgtype: Format of image file (use '-i list' for supported types)\r\n\t-b dev_sector_size: The size (in bytes) of the device sectors\r\n\t-f fstype: File system type (use '-f list' for supported types)\r\n\t-m: Display output in mactime input format with\r\n\t      dir/ as the actual mount point of the image\r\n\t-h: Include MD5 checksum hash in mactime output\r\n\t-o imgoffset: Offset into image file (in sectors)\r\n\t-P pooltype: Pool container type (use '-P list' for supported types)\r\n\t-B pool_volume_block: Starting block (for pool volumes only)\r\n\t-S snap_id: Snapshot ID (for APFS only)\r\n\t-p: Display full path for each file\r\n\t-r: Recurse on directory entries\r\n\t-u: Display undeleted entries only\r\n\t-v: verbose output to stderr\r\n\t-V: Print version\r\n\t-z: Time zone of original machine (i.e. EST5EDT or GMT) (only useful with -l)\r\n\t-s seconds: Time skew of original machine (in seconds) (only useful with -l & -m)\r\n\t-k password: Decryption password for encrypted volumes\r\n",
+    "returncode": 1
+  },
+  "hfs-wrapped": {
+    "listing": "0|/$ExtentsFile|3|r/r---------|0|0|32768|0|0|0|0\r\n0|/$CatalogFile|4|r/r---------|0|0|32768|0|0|0|0\r\n0|/$BadBlockFile|5|r/r---------|0|0|0|0|0|0|0\r\n0|/$AllocationFile|6|r/r---------|0|0|4096|0|0|0|0\r\n0|/$AttributesFile|8|r/r---------|0|0|65536|0|0|0|0\r\n0|/.fseventsd|23|d/drwx------|501|20|0|1642144782|1642144786|1642144786|1642144782\r\n0|/.fseventsd/00000000171494cb|26|r/rrw-------|501|20|161|1642144786|1642144786|1642144786|1642144786\r\n0|/.fseventsd/00000000171494cc|27|r/rrw-------|501|20|72|1642144786|1642144786|1642144786|1642144786\r\n0|/.fseventsd/fseventsd-uuid|24|r/rrw-------|501|20|36|1642144786|1642144786|1642144786|1642144782\r\n0|/.HFS+ Private Directory Data^|17|d/dr-xr-xr-t|0|0|0|1642144781|1642144781|1642144781|1642144781\r\n0|/a_directory|18|d/drwxr-xr-x|501|20|0|1642144782|1642144782|1642144782|1642144782\r\n0|/a_directory/a_file|19|r/rrw-r--r--|501|20|53|1642144782|1642144782|1642144782|1642144782\r\n0|/a_directory/a_resourcefork|25|r/rrw-r--r--|501|20|0|1642144782|1642144782|1642144782|1642144782\r\n0|/a_directory/another_file|21|r/rrw-r--r--|501|20|22|1642144782|1642144782|1642144782|1642144782\r\n0|/a_link -> a_directory/another_file|22|l/lrwxr-xr-x|501|20|24|1642144782|1642144782|1642144782|1642144782\r\n0|/passwords.txt|20|r/rrw-r--r--|501|20|116|1642144782|1642144782|1642144782|1642144782\r\n0|/^^^^HFS+ Private Data|16|d/d---------|0|0|0|1642144781|1642144781|1642144781|1642144781\r\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  "hfsx-wrapped": {
+    "listing": "0|/$ExtentsFile|3|r/r---------|0|0|32768|0|0|0|0\r\n0|/$CatalogFile|4|r/r---------|0|0|32768|0|0|0|0\r\n0|/$BadBlockFile|5|r/r---------|0|0|0|0|0|0|0\r\n0|/$AllocationFile|6|r/r---------|0|0|4096|0|0|0|0\r\n0|/$AttributesFile|8|r/r---------|0|0|65536|0|0|0|0\r\n0|/^^^^HFS+ Private Data|16|d/d---------|0|0|0|1642144781|1642144781|1642144781|1642144781\r\n0|/.HFS+ Private Directory Data^|17|d/dr-xr-xr-t|0|0|0|1642144781|1642144781|1642144781|1642144781\r\n0|/.fseventsd|23|d/drwx------|501|20|0|1642144782|1642144786|1642144786|1642144782\r\n0|/.fseventsd/00000000171494cb|26|r/rrw-------|501|20|161|1642144786|1642144786|1642144786|1642144786\r\n0|/.fseventsd/00000000171494cc|27|r/rrw-------|501|20|72|1642144786|1642144786|1642144786|1642144786\r\n0|/.fseventsd/fseventsd-uuid|24|r/rrw-------|501|20|36|1642144786|1642144786|1642144786|1642144782\r\n0|/a_directory|18|d/drwxr-xr-x|501|20|0|1642144782|1642144782|1642144782|1642144782\r\n0|/a_directory/a_file|19|r/rrw-r--r--|501|20|53|1642144782|1642144782|1642144782|1642144782\r\n0|/a_directory/a_resourcefork|25|r/rrw-r--r--|501|20|0|1642144782|1642144782|1642144782|1642144782\r\n0|/a_directory/another_file|21|r/rrw-r--r--|501|20|22|1642144782|1642144782|1642144782|1642144782\r\n0|/a_link -> a_directory/another_file|22|l/lrwxr-xr-x|501|20|24|1642144782|1642144782|1642144782|1642144782\r\n0|/passwords.txt|20|r/rrw-r--r--|501|20|116|1642144782|1642144782|1642144782|1642144782\r\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  "apfs-snapshot-False": {
+    "returncode": 0,
+    "size": 116,
+    "sha256": "9fc62df51bb0f7a0c926708989816ecb8b13411f371cd9d674bfaf0a01c0fce9",
+    "stderr": ""
+  },
+  "apfs-snapshot-True": {
+    "returncode": 0,
+    "size": 116,
+    "sha256": "02a2a6af2f1ecf4720d7d49d640f0d0a269a7ec733e41973bdd34f09dad0e252",
+    "stderr": ""
+  }
+}

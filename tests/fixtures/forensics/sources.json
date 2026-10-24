@@ -1,0 +1,38 @@
+{
+  "writer": "Windows native APIs plus specified NTFS record modifications",
+  "sddl": "O:SYG:BAD:PAI(D;;WD;;;BG)(A;;FA;;;SY)(A;;FR;;;BU)S:(AU;SA;FR;;;WD)",
+  "files": {
+    "windows.lznt1": {
+      "size": 96,
+      "sha256": "92ee54b3fd0ca667ff8d03b0232b5b614ee32d4efc6994244e5088f54b79f78b"
+    },
+    "compressed-source.bin": {
+      "size": 196626,
+      "sha256": "fa2b0dab0059102e78ca7ec110c17c8db6bb3c29abe049e75bf85f75f53d5cdd"
+    },
+    "windows-variable.lznt1": {
+      "size": 4862,
+      "sha256": "eaf9b29c347389bd73808a7c3d31a64c9cc7e24d3656734826039b99e07876cc"
+    },
+    "windows-variable.bin": {
+      "size": 30920,
+      "sha256": "a4dc1934ad83f2d5b4172a87d30a0a9abf7f33dfef76511db3c1f48144a1dfbb"
+    },
+    "windows.sd": {
+      "size": 152,
+      "sha256": "b7471ffc790afc577d3d5cb74be3410897e2a55d79b516bf64fe442607127ad2"
+    },
+    "ntfs-forensics.raw": {
+      "size": 4194304,
+      "sha256": "a807feab3e4b1980b72636fa7da58cbcdb7a52cf03e69f6f812a7cffef03135e"
+    },
+    "ntfs-deleted.raw": {
+      "size": 4194304,
+      "sha256": "4272fbdf4a3c8213ea02fefd7aeb16cc04a4120b5fee1cc798dd27f59205c635"
+    },
+    "ntfs-journal-security.raw": {
+      "size": 4194304,
+      "sha256": "1f29ecab524890590ac00d05b74e3c3da2a313234f3a42ca7170d7757428d9b1"
+    }
+  }
+}

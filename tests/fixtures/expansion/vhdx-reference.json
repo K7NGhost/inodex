@@ -1,0 +1,44 @@
+{
+  "ext2": {
+    "size": 4194304,
+    "sha256": "a6c2f0e39afe6c6ab432ca5465349fcefe8dc944398e97b2d957d3f89dbb5d80",
+    "oracle": "QEMU 2.3.0",
+    "container_sha256": "d729323aafb2a7473e39abe9382076014d99a0c16e8333b9decbd81d355b1087"
+  },
+  "fat-parent": {
+    "size": 4194304,
+    "sha256": "2d1954fec68faefe81dd3687282a9b387bf8417f6d2cf0da3825fa1445b64cfb",
+    "oracle": "QEMU 2.3.0",
+    "container_sha256": "4b2a44f5db544a36c234c2901263107ca18618988c41f6a92b9e264ca8c955ff"
+  },
+  "fat-differential": {
+    "size": 4194304,
+    "sha256": "a538161f34bc44c12bf9a542ce9218741c62728723ea18d0e4f6ea92e9f32e93",
+    "oracle": "DiscUtils 0.16.13",
+    "container_sha256": "6e8d17db1be6c7390c2123f4c46ce57e9ad8391b2a74841973e0d07293bcb873"
+  },
+  "ntfs-fixed": {
+    "size": 4194304,
+    "sha256": "5237dd895f38052344e2ef35a207fe9df08cd18d17b6ea857a1b93cc475e1f2e",
+    "oracle": "QEMU 2.3.0",
+    "container_sha256": "2d58839711c9e2e22b6a4b36fe97fb307bf790a519b80e962dc17bdad678e3b9"
+  },
+  "ntfs-dynamic": {
+    "size": 4194304,
+    "sha256": "b92731f8e4bf3532418444d22a9086823a8122569500acd09cd8d2ce20eb98e9",
+    "oracle": "QEMU 2.3.0",
+    "container_sha256": "e02e32fbacdc0b02e5fe435b9527099627cc2c4d72e68f263d202bc9fa413763"
+  },
+  "ntfs-parent": {
+    "size": 4194304,
+    "sha256": "c5523065bc6ef82267be56c5f8888e2876ead8ba7edba2a65a3da8b076231b68",
+    "oracle": "QEMU 2.3.0",
+    "container_sha256": "4495375f1e92bb6ef1937f7cb4ccf56ca1c1c491c0df56280a8c1905a3d58d44"
+  },
+  "ntfs-differential": {
+    "size": 4194304,
+    "sha256": "1ef1fb5360247aa7d36a38415bc7bf6e1e52f62af5e6bd1283815e82584c7efc",
+    "oracle": "DiscUtils 0.16.13",
+    "container_sha256": "65bd9e21c9f14d476df67b8fd104a61234ef693e70330c0e6b9878b10aff92ac"
+  }
+}

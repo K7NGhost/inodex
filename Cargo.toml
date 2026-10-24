@@ -1,0 +1,25 @@
+[package]
+name = "inodex"
+version = "0.1.0"
+edition = "2024"
+description = "Native Rust forensic disk image and filesystem readers"
+include = ["/src/**/*.rs", "/docs/api.md", "/README.md", "/Cargo.toml", "/Cargo.lock", "/LICENSE*", "/COPYING*"]
+
+[dependencies]
+adler2 = "2.0.1"
+flate2 = { version = "1.1.10", default-features = false, features = ["rust_backend"] }
+md-5 = "0.10.6"
+sha1 = "0.10.6"
+thiserror = "2.0.18"
+crc32fast = "1.5.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+sha2 = "0.10.9"
+lzma-rs = { version = "0.3.0", default-features = false }
+aes = { version = "0.8.4", features = ["zeroize"] }
+ccm = "0.5.0"
+zeroize = "1.8.2"
+lzfse_rust = "0.2.0"
+
+[dev-dependencies]
+tempfile = "3.27.0"

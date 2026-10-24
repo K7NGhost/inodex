@@ -1,0 +1,58 @@
+{
+  "recorded_on": "2026-10-23",
+  "sources": [
+    {
+      "file": "ext2.vhdx",
+      "url": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ext2.vhdx",
+      "sha256": "d729323aafb2a7473e39abe9382076014d99a0c16e8333b9decbd81d355b1087"
+    },
+    {
+      "file": "fat-parent.vhdx",
+      "url": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/fat-parent.vhdx",
+      "sha256": "4b2a44f5db544a36c234c2901263107ca18618988c41f6a92b9e264ca8c955ff"
+    },
+    {
+      "file": "fat-differential.vhdx",
+      "url": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/fat-differential.vhdx",
+      "sha256": "6e8d17db1be6c7390c2123f4c46ce57e9ad8391b2a74841973e0d07293bcb873"
+    },
+    {
+      "file": "ntfs-fixed.vhdx",
+      "url": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-fixed.vhdx",
+      "sha256": "2d58839711c9e2e22b6a4b36fe97fb307bf790a519b80e962dc17bdad678e3b9"
+    },
+    {
+      "file": "ntfs-dynamic.vhdx",
+      "url": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-dynamic.vhdx",
+      "sha256": "e02e32fbacdc0b02e5fe435b9527099627cc2c4d72e68f263d202bc9fa413763"
+    },
+    {
+      "file": "ntfs-parent.vhdx",
+      "url": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-parent.vhdx",
+      "sha256": "4495375f1e92bb6ef1937f7cb4ccf56ca1c1c491c0df56280a8c1905a3d58d44"
+    },
+    {
+      "file": "ntfs-differential.vhdx",
+      "url": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-differential.vhdx",
+      "sha256": "65bd9e21c9f14d476df67b8fd104a61234ef693e70330c0e6b9878b10aff92ac"
+    },
+    {
+      "file": "tracy-phone.L01",
+      "url": "https://raw.githubusercontent.com/abrignoni/ewfprobe/4af1a54a223edbce12693b29fb3838b63a26b4f2/tests/fixtures/tracy-phone-2012-07-05-1640.L01",
+      "sha256": "38a8f72561a236f155ee8a395d421310949a1b3e2cc938a0f3ded448e78088a4",
+      "origin": "Digital Corpora 2012-ngdc EnCase 7.2.4.2; CC0 scenario data except separately copyrighted contents"
+    }
+  ],
+  "apple_codec_commit": "e634ca58b4821d9f3d560cdc6df5dec02ffc93fd",
+  "oracles": {
+    "TSK": "4.15.0",
+    "libewf": "20130416",
+    "QEMU": "2.3.0",
+    "DiscUtils": "0.16.13",
+    "Apple codec": "lzfse/lzfse e634ca58b4821d9f3d560cdc6df5dec02ffc93fd"
+  },
+  "implementation_dependencies": {
+    "LZFSE/LZVN": "lzfse_rust 0.2.1; pure Rust"
+  },
+  "limitations_document": "../../../docs/format-expansion.md"
+}

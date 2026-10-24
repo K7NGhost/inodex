@@ -1,0 +1,45 @@
+# Rust build output, packaged crates and profiling artifacts.
+target/
+*.crate
+*.rs.bk
+*.profraw
+*.profdata
+/coverage/
+/lcov.info
+
+# Local caches and temporary work directories.
+.cache/
+/tmp/
+/temp/
+/logs/
+*.tmp
+*.temp
+
+# Python tooling used to generate and validate fixtures.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and operating-system files.
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment settings; keep shareable templates.
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Keep Cargo.lock, docs, CI, development tools and tests/fixtures in Git.
+# Cargo.toml's include list independently controls the crates.io package.

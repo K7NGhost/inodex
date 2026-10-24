@@ -1,0 +1,38 @@
+{
+  "ext2.splitraw.000": {
+    "bytes": 4194304,
+    "sha256": "a6c2f0e39afe6c6ab432ca5465349fcefe8dc944398e97b2d957d3f89dbb5d80"
+  },
+  "ext2.vhd": {
+    "bytes": 4212736,
+    "sha256": "870be7ae16c1fa8faab05c6eb9205dc9a7ae35c5f552c5cf8a267c0bc6a5cb99"
+  },
+  "ext2.vmdk": {
+    "bytes": 4194304,
+    "sha256": "a6c2f0e39afe6c6ab432ca5465349fcefe8dc944398e97b2d957d3f89dbb5d80"
+  },
+  "fat-differential.vhd": {
+    "bytes": 4194304,
+    "sha256": "f4b61a33ee2f7e8c19f737792a4107e46340026a9a829e4169b751901cc3ef02"
+  },
+  "fat-parent.vhd": {
+    "bytes": 4194304,
+    "sha256": "bbdb657bc5aa2fde44e2456149f9257a862cb84f4668e338b90e357b0fbdf118"
+  },
+  "ntfs-differential.vhd": {
+    "bytes": 4194304,
+    "sha256": "b7922a46a6b08fa4f4fc0c51a25d5587d1d49f15cfade45ca740dd07110ae144"
+  },
+  "ntfs-dynamic.vhd": {
+    "bytes": 4194304,
+    "sha256": "8b10b52e3d1e76075d05a5101a6536b9fa8376a5b8f7c22f502d0987d165c876"
+  },
+  "ntfs-fixed.vhd": {
+    "bytes": 4194304,
+    "sha256": "cd81fade3878f1b2957f1ece168201876bdf4e90c9b30f60c2f232eba5fea76c"
+  },
+  "ntfs-parent.vhd": {
+    "bytes": 4194304,
+    "sha256": "c91d1766dd4b3327f33a082cbf958d3566dd84a3d71c2473a5ae6155e53171de"
+  }
+}

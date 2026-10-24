@@ -1,0 +1,46 @@
+{
+  "native.aff": {
+    "size": 38161,
+    "sha256": "96123a06d29838a8bffedf2937a56cbb351e3169c59cf76adf2eb74a1b4c5985"
+  },
+  "plain.aff": {
+    "size": 4227185,
+    "sha256": "c0a645ca7de6794f9a86989fe3ffc592628af7853f672645efadda90c7d4ad55"
+  },
+  "lzma.aff": {
+    "size": 38157,
+    "sha256": "a076fdc6b83a7e1e6cd4f175aa8e19cdccc739f3ec4c80765900ca8986314fd1"
+  },
+  "multi.afd/file_000.aff": {
+    "size": 15361,
+    "sha256": "cf49bda8e587ee3414a4a8e4ffc30dbbab800198b9037c829510c88f0101ed8b"
+  },
+  "multi.afd/file_001.aff": {
+    "size": 15370,
+    "sha256": "6e575deb381b286b48da8c5e4b62f2a23e64f08e7f5294ac606f5584d9d06d34"
+  },
+  "multi.afd/file_002.aff": {
+    "size": 9405,
+    "sha256": "5af6c74944b2db8f1764916cc428cc840c7695681c9ab90489f95273f6825671"
+  },
+  "native.afm": {
+    "size": 1333,
+    "sha256": "be93ad3dbf95e7f8754f125c41a94fc4c446758a443e283ce5e9f47ba9947afe"
+  },
+  "native.000": {
+    "size": 1048576,
+    "sha256": "2b3c5091819f7207b6ab2967cd4a11aa7058a3d9b6dd5b2d83aa23ef7fc74bc2"
+  },
+  "native.001": {
+    "size": 1048576,
+    "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+  },
+  "native.002": {
+    "size": 1048576,
+    "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+  },
+  "native.003": {
+    "size": 1048576,
+    "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+  }
+}

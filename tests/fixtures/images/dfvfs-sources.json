@@ -1,0 +1,86 @@
+[
+  {
+    "name": "ext2.splitraw.000",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ext2.splitraw.000",
+    "git_blob": "c8dcde41267cf8d70b21fd0192ff01f9c6a579cc",
+    "size": 2097152,
+    "sha256": "2a864677a8f3c56a57ef5f02ca456205e06a274c5ba1b803c8235601d7930ee2"
+  },
+  {
+    "name": "ext2.splitraw.001",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ext2.splitraw.001",
+    "git_blob": "3301331bed0971ef2a52684ad73baa99ed523573",
+    "size": 2097152,
+    "sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee"
+  },
+  {
+    "name": "ext2.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ext2.vhd",
+    "git_blob": "fc6dc802818227d52ab0e69c1258625d2d1a9485",
+    "size": 2100224,
+    "sha256": "225f16a8d65ba442fbd9958606b60bb6001b33be024b90661baffd67f3210230"
+  },
+  {
+    "name": "ext2.vmdk",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ext2.vmdk",
+    "git_blob": "b549aa40298d6430ca6832a810714c472c904538",
+    "size": 262144,
+    "sha256": "578b5f75af790030113a92c4227c6e53dad53a17e65cb491781dc75b3cef31f8"
+  },
+  {
+    "name": "fat-differential.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/fat-differential.vhd",
+    "git_blob": "61d930fdb8221bc845bcb5fec352200015e6e0e3",
+    "size": 2183168,
+    "sha256": "17032553d22ecc1fbde8dbac6f21b320c73d09eb2b118e7cf8d3624ce7b7eed4"
+  },
+  {
+    "name": "fat-parent.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/fat-parent.vhd",
+    "git_blob": "9e036ee0df7c171265691735de293dbf3b102160",
+    "size": 4194816,
+    "sha256": "709f21390bc46223ab78bfe439499578c7946ded463b8551034ee74052fc0762"
+  },
+  {
+    "name": "image-differential.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/image-differential.vhd",
+    "git_blob": "73c150abfd325e17c00465436427a74d0668ed83",
+    "size": 2100224,
+    "sha256": "cde4d1356f5c47d697633ed3f5364f53d99ef1bc16867b903d86bdb7637eb7db"
+  },
+  {
+    "name": "image.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/image.vhd",
+    "git_blob": "9c5102b756d9e7b91d35c2c1876a46909ad4d70e",
+    "size": 2100224,
+    "sha256": "6438e92bda74f4f2f190cc665ffa5179174a8d614a2e6a38d5eb3a794642a8a8"
+  },
+  {
+    "name": "ntfs-differential.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-differential.vhd",
+    "git_blob": "34ec5563d2f23684b34ebdad5eb4c3cd58217754",
+    "size": 4284416,
+    "sha256": "d7fab76041754c582111087449abcfc43c4a859d2449f1b2334b45b81d43393b"
+  },
+  {
+    "name": "ntfs-dynamic.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-dynamic.vhd",
+    "git_blob": "31cd54f6761860c0fcb19847ab6a4010dab6d8af",
+    "size": 4210688,
+    "sha256": "de48673c33e024a6af635cea56c51f47769cb59ea6264d8d6b32c757dc663051"
+  },
+  {
+    "name": "ntfs-fixed.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-fixed.vhd",
+    "git_blob": "2d0201c41ab9d99a8ed926d2a116f973d1e8e6d0",
+    "size": 4194816,
+    "sha256": "797a3a1ffb1966b634bef79bf4b1e93641545cce8560b1f81d8d2c3f84b00de2"
+  },
+  {
+    "name": "ntfs-parent.vhd",
+    "source": "https://raw.githubusercontent.com/log2timeline/dfvfs/d365f334da42169276e2083a27f75bc2afa48ea8/test_data/ntfs-parent.vhd",
+    "git_blob": "df7e5344f324b50fc3f283875b3fb5615c1c5a33",
+    "size": 4194816,
+    "sha256": "d63dae47d313b4e5579f236c0c6277bff9f8b047630bd77a4842659f408d8ea8"
+  }
+]

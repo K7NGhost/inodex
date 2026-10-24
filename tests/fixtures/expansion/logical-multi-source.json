@@ -1,0 +1,18 @@
+{
+  "multi.bin": {
+    "size": 50000,
+    "sha256": "fafcf9ca749220c5c6b056bf8c2f365dcec0dfddc23d8581b2da2e808a9ba2ee"
+  },
+  "fill.bin": {
+    "size": 1000,
+    "sha256": "4a94ac09b72d436afda4b5637b928667bb4da84dc32c083b76c3020f5d23edf6"
+  },
+  "duplicate.bin": {
+    "size": 50000,
+    "sha256": "22167cd2c512d518361930cd6cea6672bc137f18bd4d7fb7273239089bb791a7"
+  },
+  "empty.txt": {
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
